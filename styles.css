@@ -28,6 +28,7 @@ header .header-links a {
     text-decoration: none;
     color: #404040;
     transition-duration: 300ms;
+    padding: 0 10px 0 10px;
 }
 
 header .header-links a:hover {
@@ -101,12 +102,18 @@ header .header-links a:hover {
     padding: 0 5px 0 5px;
 }
 
+.section-2-card-icon {
+    fill: none;
+    stroke: #48af4b;
+    margin-bottom: 5px;
+}
+
 .section-2-card p {
     color: #808080;
     margin-top: 10px;
 }
 
-footer {
+#footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -142,4 +149,8 @@ footer {
 
 .footer-text h1 {
     margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    
 }
