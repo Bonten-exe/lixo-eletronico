@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+header .header-logo {
+    font-size: 10px;
+}
+
+header .header-logo img {
+    width: 40px;
+    height: 40px;
+}
+
+header .header-links a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #404040;
+    transition-duration: 300ms;
+}
+
+header .header-links a:hover {
+    color: #48af4b;
+    font-size: 20px;
+}
+
+#section-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 420px;
+    background-color: #f0fdf4;
+}
+
+.section-1-text {
+    width: 520px;
+
+}
+
+.section-1-text h1 {
+    font-size: 40px;
+}
+
+.section-1-text p {
+    font-size: 13px;
+    color: #808080;
+}
+
+.section-1-img {
+    width: 300px;
+    height: 300px;
+    background-color: #808080;
+    border-radius: 5px;
+
+}
+
+#section-2 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-2-text h1 {
+    font-size: 50px;
+}
+
+.section-2-text p {
+    color: #808080;
+    margin-top: 15px;
+}
+
+.section-2-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.section-2-card {
+    width: 300px;
+    height: 150px;
+    border: #dfdfdf 2px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px 0 5px;
+}
+
+.section-2-card p {
+    color: #808080;
+    margin-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 420px;
+    background-color: #f0fdf4;
+}
+
+.footer-img {
+    width: 300px;
+    height: 200px;
+    background-color: #808080;
+    border-radius: 5px;
+}
+
+.footer-text {
+    width: 500px;
+}
+
+.footer-text p {
+    color: #808080;
+}
+
+.footer-badge {
+    background-color: #c3f1d3;
+    padding: 5px;
+    border-radius: 8px;
+    color: #48af4b;
+}
+
+.footer-text h4 {
+    margin-top: 5px
+}
+
+.footer-text h1 {
+    margin-top: 10px;
+}
